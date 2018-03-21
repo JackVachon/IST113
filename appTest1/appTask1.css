@@ -1,0 +1,28 @@
+.body {
+	Background-color: #F0F0F0;
+}
+
+#listDiv {
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#appBox {
+	
+	width: 500px;
+	background-color: White;
+	border: 2px solid black;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+#appHeader {
+	text-align: center;
+}
+
+#Input {
+	text-align: center;
+}
+
