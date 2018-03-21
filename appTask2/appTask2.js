@@ -15,6 +15,7 @@ function testDom() {
 		text: "End Task",
 		click: function () {
 			this.parentNode.remove();
+			(this).css("float", "right");
 		}
 	});
 	
