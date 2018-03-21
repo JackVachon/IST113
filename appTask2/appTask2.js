@@ -3,13 +3,10 @@ function testDom() {
 
   $("#buttonElement").on("click", function() {
     
-    let contentValue = $("#taskInput").val();
+    var contentValue = $("#taskInput").val();
 
     $newElem = $("<li></li>").text(contentValue);
 
-    $newElem.on("click", function() {
-      this.remove();
-    });
 	
 	$("#RunningTasks").append($newElem);
 	
@@ -17,7 +14,7 @@ function testDom() {
 	{
 		text: "End Task",
 		click: function () {
-			$newElem.remove();
+			this.parentNode.remove();
 		}
 	});
 	
