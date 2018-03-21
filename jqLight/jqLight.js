@@ -7,7 +7,7 @@ $(function() {
 function myClickFunction() {
 	$("#button").on("click", function() {
 	switchOff = !switchOff;
-	if (switchOff == true) {
+	if (switchOff) {
 		$("#body").on("click", function() {
 		$(this).css("background-color", "black");
 		$(this).css("color", "white");
