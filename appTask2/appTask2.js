@@ -23,7 +23,6 @@ function testDom() {
 	
 	($newElem).append(DeleteButton);
 	
-	$("#RunningTasks").append($newElem); 
   });
 } 
 testDom();
