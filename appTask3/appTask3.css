@@ -1,0 +1,41 @@
+.body {
+	Background-color: #F0F0F0;
+}
+
+#listDiv {
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+#appBox {
+	width: 700px;
+	background-color: White;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 200px;
+}
+
+#appHeader {
+	text-align: center;
+}
+
+#Input {
+	text-align: center;
+}
+
+.ClearButton {
+	margin: 20px;
+}
+
+li {
+	width: 600px;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+}
+
+li button {
+	float: right;
+}
