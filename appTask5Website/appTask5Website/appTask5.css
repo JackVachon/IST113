@@ -1,0 +1,102 @@
+.BackgroundDetails {
+	background-color: #F0F0F0;
+}
+
+#app {
+  width: 700px;
+  background-color: White;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+}
+#appTitle {
+  text-align: center;
+}
+#field {
+  text-align: center;
+}
+#listDiv {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #F0F0F0;
+}
+em {
+  font-size: 20px;
+}
+li {
+  width: 400px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+li button {
+  float: right;
+}
+#delAll {
+  margin: 20px;
+}
+
+.CSSisPicky {
+	Margin-top: 10px;
+}
+
+.CreateSpace {
+	Margin-top: 100px;
+}
+
+.FormHeader {
+	text-align: center;
+	Margin-top: 20px;
+	Margin-Bottom: 20px;
+	Margin: auto;
+	font-size: 30px;
+}
+
+.InputForm {
+  visibility: hidden;
+  background-color: White;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+}
+
+#formButton {
+  margin: 30px;
+}
+
+.FormRow {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.FormRow input[type='text'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.FormRow {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.FormRow input[type='text'] {
+  width: 250px;
+  height: initial;
+}
+.FormRow label {
+  text-align: right;
+  width: 120px;
+  margin-top: 7px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
