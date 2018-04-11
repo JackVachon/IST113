@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="appTask4.css">
+</head>
+<body class='BackgroundDetails'>
+  <div id="app">
+    <h1 id="appTitle">Task Manager<br/><em></em></h1>
+    <fieldset id="field">
+      <input type="text" id="taskInput" name="taskInput" />
+      <button id="buttonElement">Start Task</button>
+    </fieldset>
+
+    <hr />
+    <div id=listDiv>
+      <p>Running Tasks:</p>
+      <ul id="taskList">
+      </ul>
+    </div>
+
+    <button id="delAll">Close All Tasks</button>
+    <hr>
+
+    <button type="button" id='formButton'>Toggle Contact Form</button>
+
+  </div>
+
+	<div class="CreateSpace"></div>
+	
+  <form action='' method='post' class='InputForm'>
+	<div class='CSSisPicky'></div>
+	<div class = 'FormHeader'>Contact Info</div>
+	<div class='CSSisPicky'></div>
+	<hr>
+    <div class='FormRow'>
+      <label for='full-name'>Full Name:</label>
+      <input id='full-name' name='full-name' type='text'/>
+    </div>
+
+    <div class='FormRow'>
+      <label for='email'>Your Email:</label>
+      <input id='email' name='email' type='email' placeholder='JohnDoe@YourEmail.com'/>
+    </div>
+
+    <div class='FormRow'>
+      <label for='message'>Message:</label>
+      <textarea id='message' name='message'></textarea>
+      <div class='instructions'>    Describe your experience!</div>
+    </div>
+
+    <div class='FormRow'>
+      <button>Submit</button>
+    </div>
+
+  </form>
+
+  <script src="jquery.js"></script>
+  <script src="appTask4.js"></script>
+  
+</body>
+
+</html>
